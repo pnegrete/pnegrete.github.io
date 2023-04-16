@@ -1,0 +1,91 @@
+
+body{
+
+    background-color: azure ;
+
+}
+
+
+nav {
+  background-color: #1c1c1c;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+ h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #00c6ff, #0072ff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px #444, 3px 3px #888;
+    text-align: center;
+
+    
+}
+
+h2{
+    background-color: rgb(38, 187, 204);
+    margin:0 20px;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    margin:20px;
+    float: none;
+}
+
+.collapsible {
+  background-color: rgb(86, 99, 90);
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline-style: double;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px #444, 3px 3px #888;
+  text-align: center;
+ 
+}
+.content {
+  padding:0 6px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+form {
+  margin:0 20px;
+}
